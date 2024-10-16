@@ -5,5 +5,5 @@ output "instance_public_ip" {
 
 output "bucket_name" {
   description = "S3 bucket name"
-  value       = aws_s3_bucket.example.bucket
+  value       = aws_s3_bucket_acl.example.bucket
 }
